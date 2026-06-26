@@ -73,11 +73,11 @@ motto:      "Per aspera ad astra"
 
 ---
 
-## <samp>🌠 &nbsp;Trophy Cabinet</samp>
+## <samp>🌠 &nbsp;Whispers from the Stars</samp>
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=YxLuna&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=10" />
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=false" />
 
 </div>
 
