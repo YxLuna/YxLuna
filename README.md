@@ -61,11 +61,11 @@ motto:      "Per aspera ad astra"
 
 <br/><br/>
 
-<img width="98%" src="https://streak-stats.demolab.com?user=YxLuna&theme=tokyonight&hide_border=true&background=0D1117&ring=B794F6&fire=F7768E&currStreakLabel=B794F6" />
+<img width="98%" src="https://streak-stats.demolab.com?user=YxLuna&theme=tokyonight&hide_border=true&background=0D1117&ring=E6B75C&fire=F7768E&currStreakLabel=E6B75C&currStreakNum=E6B75C" />
 
 <br/><br/>
 
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=YxLuna&theme=react-dark&bg_color=0d1117&color=b794f6&line=7aa2f7&point=f7768e&area=true&area_color=b794f6&hide_border=true&custom_title=Luna's%20Contribution%20Constellation" />
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=YxLuna&theme=react-dark&bg_color=0d1117&color=e6b75c&line=7aa2f7&point=f7768e&area=true&area_color=7aa2f7&hide_border=true&custom_title=Luna's%20Contribution%20Constellation" />
 
 </div>
 
@@ -77,7 +77,7 @@ motto:      "Per aspera ad astra"
 
 <div align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=false" />
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=react&border=false" />
 
 </div>
 
