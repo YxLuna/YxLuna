@@ -61,7 +61,7 @@ motto:      "Per aspera ad astra"
 
 <br/><br/>
 
-<img width="98%" src="https://github-readme-streak-stats.herokuapp.com/?user=YxLuna&theme=tokyonight&hide_border=true&background=0D1117&ring=B794F6&fire=F7768E&currStreakLabel=B794F6" />
+<img width="98%" src="https://streak-stats.demolab.com?user=YxLuna&theme=tokyonight&hide_border=true&background=0D1117&ring=B794F6&fire=F7768E&currStreakLabel=B794F6" />
 
 <br/><br/>
 
@@ -89,8 +89,16 @@ motto:      "Per aspera ad astra"
 
 <div align="center">
 
-<a href="https://github.com/YxLuna"><img src="https://img.shields.io/badge/GitHub-1a1b27?style=for-the-badge&logo=github&logoColor=b794f6" /></a>
+<a href="https://www.yx-bot.top"><img src="https://img.shields.io/badge/Website-1a1b27?style=for-the-badge&logo=googlechrome&logoColor=b794f6&labelColor=24283b" /></a>
 &nbsp;
+<a href="https://space.bilibili.com/288150231"><img src="https://img.shields.io/badge/Bilibili-1a1b27?style=for-the-badge&logo=bilibili&logoColor=FB7299&labelColor=24283b" /></a>
+&nbsp;
+<a href="https://github.com/YxLuna"><img src="https://img.shields.io/badge/GitHub-1a1b27?style=for-the-badge&logo=github&logoColor=b794f6&labelColor=24283b" /></a>
+&nbsp;
+<a href="mailto:3534318786@qq.com"><img src="https://img.shields.io/badge/Email-1a1b27?style=for-the-badge&logo=gmail&logoColor=f7768e&labelColor=24283b" /></a>
+
+<br/><br/>
+
 <img src="https://img.shields.io/badge/Status-Stargazing%20%E2%9C%A8-1a1b27?style=for-the-badge&labelColor=24283b" />
 
 </div>
