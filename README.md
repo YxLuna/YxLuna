@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f24,100:3d2a14&height=240&section=header&text=Luna's%20Cosmic%20Space&fontSize=58&fontColor=f5f3ed&fontAlignY=38&desc=%E2%9C%A8%20A%20digital%20wanderer%20in%20the%20ocean%20of%20code%20%E2%9C%A8&descSize=18&descAlignY=58&animation=twinkling" alt="header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f24,100:3a5ba0&height=240&section=header&text=Luna's%20Cosmic%20Space&fontSize=58&fontColor=f5f3ed&fontAlignY=38&desc=%E2%9C%A8%20A%20digital%20wanderer%20in%20the%20ocean%20of%20code%20%E2%9C%A8&descSize=18&descAlignY=58&animation=twinkling" alt="header" />
 
 <a href="https://github.com/YxLuna">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3500&pause=800&color=E6B75C&center=true&vCenter=true&multiline=false&width=720&height=50&lines=%F0%9F%8C%99+Hi+there%2C+I'm+Luna+%F0%9F%8C%99;%E2%9C%A8+Chasing+stars+%26+chasing+bugs+%E2%9C%A8;%F0%9F%9A%80+Building+constellations+out+of+code;%F0%9F%AA%90+Welcome+to+my+little+galaxy" alt="typing" />
@@ -61,7 +61,7 @@ motto:      "Per aspera ad astra"
 
 <br/><br/>
 
-<img width="98%" src="https://streak-stats.demolab.com?user=YxLuna&theme=tokyonight&hide_border=true&background=0A0F24&ring=E6B75C&fire=C47D5A&currStreakLabel=E6B75C&sideNums=F5F3ED&currStreakNum=E6B75C&sideLabels=F5F3ED&dates=7A7568&stroke=E6B75C" />
+<img width="98%" src="https://streak-stats.demolab.com?user=YxLuna&theme=tokyonight&hide_border=true&background=0A0F24&ring=E6B75C&fire=C47D5A&currStreakLabel=E6B75C&sideNums=F5F3ED&currStreakNum=E6B75C&sideLabels=F5F3ED&dates=7AA2F7&stroke=E6B75C" />
 
 <br/><br/>
 
@@ -77,7 +77,7 @@ motto:      "Per aspera ad astra"
 
 <div align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=gruvbox&border=false" />
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=false" />
 
 </div>
 
@@ -107,7 +107,7 @@ motto:      "Per aspera ad astra"
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:3d2a14,100:0a0f24&height=120&section=footer&animation=twinkling" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:3a5ba0,100:0a0f24&height=120&section=footer&animation=twinkling" />
 
 <sub>⭐ <i>From Luna with love · Every commit is a tiny star in the night sky</i> ⭐</sub>
 
