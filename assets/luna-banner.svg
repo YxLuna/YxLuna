@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="1000" height="420" role="img" aria-label="Luna's Cosmic Space — a girl sitting on a golden crescent moon">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101a38"/>
+      <stop offset="0.55" stop-color="#0b1128"/>
+      <stop offset="1" stop-color="#0a0f24"/>
+    </linearGradient>
+    <radialGradient id="moonGrad" cx="0.4" cy="0.35" r="1">
+      <stop offset="0" stop-color="#f7e3b0"/>
+      <stop offset="0.55" stop-color="#e6b75c"/>
+      <stop offset="1" stop-color="#c9932f"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4dfa6"/>
+      <stop offset="0.5" stop-color="#e6b75c"/>
+      <stop offset="1" stop-color="#d9a844"/>
+    </linearGradient>
+    <linearGradient id="tailGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f5f3ed" stop-opacity="0"/>
+      <stop offset="1" stop-color="#f5f3ed" stop-opacity="0.95"/>
+    </linearGradient>
+    <filter id="glowGold" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowSoft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="blurBig"><feGaussianBlur stdDeviation="34"/></filter>
+    <mask id="moonMask">
+      <circle cx="760" cy="250" r="90" fill="#fff"/>
+      <circle cx="726" cy="216" r="80" fill="#000"/>
+    </mask>
+    <path id="sparkle" d="M0 -7 L1.8 -1.8 L7 0 L1.8 1.8 L0 7 L-1.8 1.8 L-7 0 L-1.8 -1.8 Z"/>
+  </defs>
+
+  <!-- deep space background -->
+  <rect x="0" y="0" width="1000" height="420" rx="16" fill="url(#bgGrad)"/>
+
+  <!-- drifting nebulae -->
+  <g opacity="0.95">
+    <ellipse cx="240" cy="330" rx="240" ry="66" fill="#7aa2f7" opacity="0.10" filter="url(#blurBig)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 34 -10; 0 0" dur="26s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="640" cy="360" rx="300" ry="60" fill="#4a6ecf" opacity="0.10" filter="url(#blurBig)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -40 8; 0 0" dur="32s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="520" cy="70" rx="220" ry="46" fill="#7aa2f7" opacity="0.06" filter="url(#blurBig)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 26 6; 0 0" dur="22s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- star field -->
+  <g fill="#f5f3ed">
+    <circle cx="60"  cy="60"  r="1.6"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.1s" begin="-0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="150" cy="140" r="1.1"><animate attributeName="opacity" values="0.15;0.9;0.15" dur="2.6s" begin="-1.2s" repeatCount="indefinite"/></circle>
+    <circle cx="230" cy="50"  r="1.4"><animate attributeName="opacity" values="0.25;1;0.25" dur="3.8s" begin="-2s" repeatCount="indefinite"/></circle>
+    <circle cx="330" cy="100" r="1.2"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.9s" begin="-0.9s" repeatCount="indefinite"/></circle>
+    <circle cx="420" cy="40"  r="1.7"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.4s" begin="-1.6s" repeatCount="indefinite"/></circle>
+    <circle cx="500" cy="130" r="1.0"><animate attributeName="opacity" values="0.15;0.85;0.15" dur="2.4s" begin="-0.2s" repeatCount="indefinite"/></circle>
+    <circle cx="585" cy="60"  r="1.3"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.6s" begin="-2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="660" cy="110" r="1.1"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.7s" begin="-1s" repeatCount="indefinite"/></circle>
+    <circle cx="870" cy="70"  r="1.5"><animate attributeName="opacity" values="0.25;1;0.25" dur="3.2s" begin="-0.7s" repeatCount="indefinite"/></circle>
+    <circle cx="940" cy="150" r="1.2"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.8s" begin="-1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="920" cy="330" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" begin="-0.5s" repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="390" r="1.1"><animate attributeName="opacity" values="0.15;0.8;0.15" dur="2.5s" begin="-1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="90"  cy="250" r="1.2"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3s"   begin="-2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="60"  cy="360" r="1.5"><animate attributeName="opacity" values="0.25;1;0.25" dur="3.3s" begin="-0.8s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="370" r="1.1"><animate attributeName="opacity" values="0.15;0.85;0.15" dur="2.6s" begin="-1.1s" repeatCount="indefinite"/></circle>
+    <circle cx="480" cy="330" r="1.3"><animate attributeName="opacity" values="0.2;0.95;0.2" dur="3.7s" begin="-2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="770" cy="40"  r="1.2" fill="#7aa2f7"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.9s" begin="-0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="380" cy="180" r="1.0" fill="#7aa2f7"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="3.1s" begin="-1.9s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="380" r="1.2" fill="#7aa2f7"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.7s" begin="-0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="200" cy="210" r="1.0" fill="#e6b75c"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.4s" begin="-2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="600" cy="300" r="1.1" fill="#e6b75c"><animate attributeName="opacity" values="0.2;0.85;0.2" dur="2.8s" begin="-1.5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- sparkles (four-point stars) -->
+  <g fill="#e6b75c" filter="url(#glowSoft)">
+    <g transform="translate(560,90)">
+      <use href="#sparkle" opacity="0.9">
+        <animateTransform attributeName="transform" type="scale" values="0.5;1.05;0.5" dur="3.2s" repeatCount="indefinite"/>
+      </use>
+    </g>
+    <g transform="translate(880,220)" fill="#f5f3ed">
+      <use href="#sparkle" opacity="0.8">
+        <animateTransform attributeName="transform" type="scale" values="0.9;0.4;0.9" dur="4s" repeatCount="indefinite"/>
+      </use>
+    </g>
+    <g transform="translate(130,110)" fill="#7aa2f7">
+      <use href="#sparkle" opacity="0.8">
+        <animateTransform attributeName="transform" type="scale" values="0.4;0.95;0.4" dur="3.6s" begin="-1.3s" repeatCount="indefinite"/>
+      </use>
+    </g>
+  </g>
+
+  <!-- tiny ringed planet -->
+  <g transform="translate(120,320)" opacity="0.75">
+    <circle r="9" fill="#7aa2f7"/>
+    <ellipse rx="17" ry="5" fill="none" stroke="#e6b75c" stroke-width="1.4" transform="rotate(-18)" opacity="0.8"/>
+    <animateTransform attributeName="transform" type="translate" values="120 320; 120 314; 120 320" dur="9s" repeatCount="indefinite" additive="replace"/>
+  </g>
+
+  <!-- shooting stars -->
+  <g opacity="0">
+    <path d="M0 0 L-78 0" stroke="url(#tailGrad)" stroke-width="2.4" stroke-linecap="round" transform="rotate(20)"/>
+    <circle r="2.4" fill="#f5f3ed"/>
+    <animateTransform attributeName="transform" type="translate" values="-80 30; 560 262; 560 262" keyTimes="0;0.16;1" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.12;0.16;1" dur="9s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+    <path d="M0 0 L-64 0" stroke="url(#tailGrad)" stroke-width="2" stroke-linecap="round" transform="rotate(164)"/>
+    <circle r="2" fill="#f5f3ed"/>
+    <animateTransform attributeName="transform" type="translate" values="1060 90; 460 262; 460 262" keyTimes="0;0.14;1" dur="13s" begin="-5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;0.1;0.14;1" dur="13s" begin="-5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- ===== moon scene (moon + girl bob gently together) ===== -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -7; 0 0" dur="6.5s" repeatCount="indefinite"/>
+
+    <!-- crescent moon -->
+    <g filter="url(#glowGold)">
+      <circle cx="760" cy="250" r="90" fill="url(#moonGrad)" mask="url(#moonMask)"/>
+    </g>
+    <g mask="url(#moonMask)" opacity="0.3" fill="#a87f2e">
+      <ellipse cx="798" cy="300" rx="12" ry="9"/>
+      <ellipse cx="830" cy="258" rx="8" ry="6"/>
+      <ellipse cx="772" cy="332" rx="6" ry="5"/>
+    </g>
+
+    <!-- dashed orbit hint -->
+    <ellipse cx="760" cy="250" rx="128" ry="34" fill="none" stroke="#7aa2f7" stroke-width="1" stroke-dasharray="3 7" opacity="0.28" transform="rotate(-14 760 250)">
+      <animate attributeName="stroke-dashoffset" values="0;-100" dur="14s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- ===== girl silhouette, seated on the upper horn ===== -->
+    <g transform="translate(784,272) scale(1.15)" stroke="#e6b75c" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" fill="#0a0f1e">
+      <!-- flowing hair (behind body) -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="-2 2 -60; 2.5 2 -60; -2 2 -60" dur="4.2s" repeatCount="indefinite"/>
+        <path d="M 6 -67
+                 C 22 -64 31 -52 29 -38
+                 C 28 -28 21 -20 25 -8
+                 C 29 4 41 10 39 24
+                 C 37 34 27 39 20 31
+                 C 26 24 25 14 19 6
+                 C 15 -2 17 -12 13 -22
+                 C 11 -32 13 -44 4 -52 Z"/>
+        <path d="M 24 -30 C 34 -22 36 -8 30 2" fill="none" stroke-width="1.1" opacity="0.7"/>
+      </g>
+      <!-- back leg (static) -->
+      <path d="M 2 -2 C -5 1 -12 5 -17 10 L -15 15 C -9 11 -3 8 3 6 Z"/>
+      <path d="M -17 10 C -19 20 -20 30 -20 40 L -14 41 C -14 31 -13 21 -11 12 Z"/>
+      <path d="M -19 39 C -22 42 -23 44 -21 46 L -16 43 Z"/>
+      <!-- torso + little skirt -->
+      <path d="M 3 -45
+               C 8 -42 9 -34 8 -26
+               C 8 -18 6 -12 6 -7
+               C 8 -2 9 3 5 6
+               L -11 6
+               C -9 0 -7 -3 -4 -5
+               C -3 -14 -2 -24 -1 -32
+               C -3 -38 -1 -42 1 -45 Z"/>
+      <!-- arm resting behind -->
+      <path d="M 4 -38 C 8 -32 11 -22 13 -12 C 14 -8 15 -4 14 0 L 10 0 C 9 -6 7 -18 3 -30 Z"/>
+      <!-- front leg: thigh -->
+      <path d="M -2 -2 C -10 0 -18 3 -23 7 L -21 12 C -14 9 -8 7 -1 6 Z"/>
+      <!-- front leg: swinging calf + foot -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="-6 -22 9; 7 -22 9; -6 -22 9" dur="3.4s" repeatCount="indefinite"/>
+        <path d="M -23 6 C -26 16 -28 26 -28 36 L -22 37 C -21 27 -20 17 -17 9 Z"/>
+        <path d="M -27 35 C -30 38 -32 40 -30 42 L -24 39 Z"/>
+      </g>
+      <!-- head + ahoge -->
+      <circle cx="2" cy="-56" r="12.5"/>
+      <path d="M 0 -68 C -2 -76 6 -78 4 -71 C 8 -75 12 -72 7 -67" fill="none" stroke-width="1.4"/>
+    </g>
+
+    <!-- floating music notes -->
+    <g font-family="Georgia, serif" font-size="15" fill="#7aa2f7">
+      <text x="732" y="190" opacity="0">♪
+        <animate attributeName="opacity" values="0;0.9;0" dur="5s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0 6; 0 -16" dur="5s" repeatCount="indefinite"/>
+      </text>
+      <text x="712" y="216" opacity="0" font-size="12">♫
+        <animate attributeName="opacity" values="0;0.8;0" dur="5s" begin="2.4s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0 6; 0 -14" dur="5s" begin="2.4s" repeatCount="indefinite"/>
+      </text>
+    </g>
+  </g>
+
+  <!-- title -->
+  <g text-anchor="middle" font-family="Georgia, 'Palatino Linotype', 'Times New Roman', serif">
+    <text x="330" y="212" font-size="54" font-style="italic" fill="#e6b75c" opacity="0.35" filter="url(#glowSoft)">Luna's Cosmic Space
+      <animate attributeName="opacity" values="0.25;0.55;0.25" dur="4.5s" repeatCount="indefinite"/>
+    </text>
+    <text x="330" y="212" font-size="54" font-style="italic" fill="url(#goldGrad)" letter-spacing="1">Luna's Cosmic Space</text>
+    <text x="330" y="252" font-size="17" fill="#7aa2f7" opacity="0.9" letter-spacing="2" font-style="italic">✦ vast is the sea of stars — I sail by moonlight ✦</text>
+  </g>
+</svg>

@@ -1,9 +1,9 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24,30&height=240&section=header&text=Luna's%20Cosmic%20Space&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=%E2%9C%A8%20A%20digital%20wanderer%20in%20the%20ocean%20of%20code%20%E2%9C%A8&descSize=18&descAlignY=58&animation=twinkling" alt="header" />
+<img width="100%" src="assets/luna-banner.svg" alt="Luna's Cosmic Space — a girl sitting on the crescent moon" />
 
 <a href="https://github.com/YxLuna">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3500&pause=800&color=B794F6&center=true&vCenter=true&multiline=false&width=720&height=50&lines=%F0%9F%8C%99+Hi+there%2C+I'm+Luna+%F0%9F%8C%99;%E2%9C%A8+Chasing+stars+%26+chasing+bugs+%E2%9C%A8;%F0%9F%9A%80+Building+constellations+out+of+code;%F0%9F%AA%90+Welcome+to+my+little+galaxy" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3500&pause=800&color=E6B75C&center=true&vCenter=true&multiline=false&width=720&height=50&lines=%F0%9F%8C%99+Hi%2C+I'm+Luna+%E2%80%94+sailing+by+moonlight;%E2%9C%A8+Vast+is+the+sea+of+stars;%F0%9F%8C%8A+Turning+stardust+into+commits;%F0%9F%AA%90+Per+aspera+ad+astra" alt="typing" />
 </a>
 
 <br/>
@@ -14,7 +14,7 @@
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=YxLuna&label=Cosmic%20Visitors&color=b794f6&style=for-the-badge" alt="visitor counter" />
+<img src="https://komarev.com/ghpvc/?username=YxLuna&label=Cosmic%20Voyagers&color=e6b75c&style=for-the-badge" alt="visitor counter" />
 
 </div>
 
@@ -28,8 +28,8 @@
 name:       Luna
 location:   somewhere between Earth & the Moon
 languages:  [中文, English]
-currently:  exploring the cosmos of code
-learning:   "everything that twinkles ✨"
+currently:  sailing the vast sea of stars
+learning:   "the language of moonlight & machines ✨"
 motto:      "Per aspera ad astra"
             (Through hardships to the stars)
 ```
@@ -99,7 +99,7 @@ motto:      "Per aspera ad astra"
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/Status-Stargazing%20%E2%9C%A8-1a1b27?style=for-the-badge&labelColor=24283b" />
+<img src="https://img.shields.io/badge/Status-Sailing%20by%20Moonlight%20%F0%9F%8C%99-1a1b27?style=for-the-badge&labelColor=24283b" />
 
 </div>
 
@@ -109,6 +109,6 @@ motto:      "Per aspera ad astra"
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,30,20,12&height=120&section=footer&animation=twinkling" />
 
-<sub>⭐ <i>From Luna with love · Every commit is a tiny star in the night sky</i> ⭐</sub>
+<sub>🌙 <i>From Luna with love · each commit, a lantern adrift on the sea of stars</i> 🌙</sub>
 
 </div>
