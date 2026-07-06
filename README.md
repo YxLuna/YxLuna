@@ -12,10 +12,6 @@
 <img src="https://img.shields.io/badge/-%F0%9F%8C%8C%20Dreamer-1a1b27?style=for-the-badge&labelColor=24283b" />
 <img src="https://img.shields.io/badge/-%E2%9C%A8%20Coder-1a1b27?style=for-the-badge&labelColor=24283b" />
 
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=YxLuna&label=Cosmic%20Voyagers&color=e6b75c&style=for-the-badge" alt="visitor counter" />
-
 </div>
 
 ---
