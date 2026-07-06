@@ -61,7 +61,7 @@ motto:      "Per aspera ad astra"
 
 <br/><br/>
 
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=YxLuna&theme=react-dark&bg_color=0d1117&color=e6b75c&line=7aa2f7&point=e6b75c&area=true&area_color=7aa2f7&hide_border=true&custom_title=Luna's%20Contribution%20Constellation" />
+<img width="98%" src="https://github-readme-activity-graph-yxlunas-projects.vercel.app/graph?username=YxLuna&theme=react-dark&bg_color=0d1117&color=e6b75c&line=7aa2f7&point=e6b75c&area=true&area_color=7aa2f7&hide_border=true&custom_title=Luna's%20Contribution%20Constellation" />
 
 </div>
 
