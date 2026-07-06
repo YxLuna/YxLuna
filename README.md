@@ -57,7 +57,7 @@ motto:      "Per aspera ad astra"
 
 <br/><br/>
 
-<img width="98%" src="https://streak-stats.demolab.com?user=YxLuna&theme=tokyonight&hide_border=true&background=0D1117&ring=E6B75C&fire=F7768E&currStreakLabel=E6B75C&currStreakNum=E6B75C" />
+<img width="98%" src="https://github-readme-streak-stats-pi-peach.vercel.app?user=YxLuna&theme=tokyonight&hide_border=true&background=0D1117&ring=E6B75C&fire=F7768E&currStreakLabel=E6B75C&currStreakNum=E6B75C" />
 
 <br/><br/>
 
