@@ -16,7 +16,10 @@
 
 <img width="100%" src="assets/section-about.svg" alt="About This Tiny Planet · 这颗小星球" />
 
-<img align="right" height="180" src="https://raw.githubusercontent.com/YxLuna/YxLuna/output/github-snake-dark.svg" width="40%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YxLuna/YxLuna/output/github-snake-dark.svg" />
+  <img align="right" height="180" width="40%" src="https://raw.githubusercontent.com/YxLuna/YxLuna/output/github-snake.svg" alt="contribution snake" />
+</picture>
 
 ```yaml
 name:       Luna

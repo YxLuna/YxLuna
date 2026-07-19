@@ -19,7 +19,7 @@
     <circle cx="82" cy="24" r="1.8" fill="#7aa2f7"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.3s" begin="-2.4s" repeatCount="indefinite"/></circle>
     <circle cx="96" cy="12" r="2" fill="#f5f3ed"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.8s" begin="-0.3s" repeatCount="indefinite"/></circle>
   </g>
-  <text x="112" y="42" font-family="Georgia, 'Palatino Linotype', serif" font-size="26" font-style="italic" fill="url(#gg)" letter-spacing="1">Constellation of Tools<tspan dx="14" font-size="15" font-style="normal" fill="#7aa2f7" letter-spacing="2">· 工具星座</tspan></text>
+  <text x="112" y="42" font-family="Georgia, 'Palatino Linotype', serif" font-size="26" font-style="italic" fill="url(#gg)" letter-spacing="1">Constellation of Tools</text>
   <rect x="112" y="52" width="716" height="1" fill="url(#ug)"/>
   <g transform="translate(820,52)" fill="#e6b75c">
     <use href="#sp"><animateTransform attributeName="transform" type="scale" values="0.5;1;0.5" dur="3.4s" begin="-1.2s" repeatCount="indefinite"/></use>
