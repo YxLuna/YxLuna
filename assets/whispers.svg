@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 210" width="840" height="210" role="img" aria-label="Whispers from the stars — rotating quotes">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101a38"/><stop offset="1" stop-color="#0a0f24"/>
+    </linearGradient>
+    <filter id="gs" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <path id="sp" d="M0 -6 L1.5 -1.5 L6 0 L1.5 1.5 L0 6 L-1.5 1.5 L-6 0 L-1.5 -1.5 Z"/>
+  </defs>
+
+  <rect x="1" y="1" width="838" height="208" rx="14" fill="url(#bg)" stroke="#e6b75c" stroke-opacity="0.25"/>
+
+  <text x="38" y="104" font-family="Georgia, serif" font-size="110" fill="#e6b75c" opacity="0.12">“</text>
+  <text x="768" y="196" font-family="Georgia, serif" font-size="110" fill="#e6b75c" opacity="0.12">”</text>
+
+  <g fill="#f5f3ed">
+    <circle cx="90"  cy="40"  r="1.3"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="200" cy="176" r="1.1" fill="#7aa2f7"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.7s" begin="-1.2s" repeatCount="indefinite"/></circle>
+    <circle cx="640" cy="34"  r="1.2" fill="#e6b75c"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.6s" begin="-0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="756" cy="60"  r="1.2"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.9s" begin="-2s" repeatCount="indefinite"/></circle>
+    <circle cx="120" cy="150" r="1.1"><animate attributeName="opacity" values="0.15;0.8;0.15" dur="3.4s" begin="-1.6s" repeatCount="indefinite"/></circle>
+  </g>
+  <g fill="#e6b75c" filter="url(#gs)">
+    <g transform="translate(58,168)"><use href="#sp" opacity="0.7"><animateTransform attributeName="transform" type="scale" values="0.4;0.9;0.4" dur="3.8s" repeatCount="indefinite"/></use></g>
+    <g transform="translate(786,44)" fill="#7aa2f7"><use href="#sp" opacity="0.7"><animateTransform attributeName="transform" type="scale" values="0.9;0.4;0.9" dur="4.2s" begin="-1.5s" repeatCount="indefinite"/></use></g>
+  </g>
+
+  <g text-anchor="middle" font-family="Georgia, 'Palatino Linotype', serif">
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.031;0.203;0.25;1" dur="32s" begin="0s" repeatCount="indefinite"/>
+      <text x="420" y="86"  font-size="20" font-style="italic" fill="#c0caf5">We are all in the gutter,</text>
+      <text x="420" y="116" font-size="20" font-style="italic" fill="#c0caf5">but some of us are looking at the stars.</text>
+      <text x="420" y="158" font-size="15" fill="#e6b75c" letter-spacing="1">— Oscar Wilde</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.031;0.203;0.25;1" dur="32s" begin="8s" repeatCount="indefinite"/>
+      <text x="420" y="86"  font-size="20" font-style="italic" fill="#c0caf5">For my part I know nothing with any certainty,</text>
+      <text x="420" y="116" font-size="20" font-style="italic" fill="#c0caf5">but the sight of the stars makes me dream.</text>
+      <text x="420" y="158" font-size="15" fill="#e6b75c" letter-spacing="1">— Vincent van Gogh</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.031;0.203;0.25;1" dur="32s" begin="16s" repeatCount="indefinite"/>
+      <text x="420" y="100" font-size="20" font-style="italic" fill="#c0caf5">The cosmos is within us. We are made of star-stuff.</text>
+      <text x="420" y="150" font-size="15" fill="#e6b75c" letter-spacing="1">— Carl Sagan</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.031;0.203;0.25;1" dur="32s" begin="24s" repeatCount="indefinite"/>
+      <text x="420" y="94"  font-size="22" font-style="italic" fill="#c0caf5" letter-spacing="2">Per aspera ad astra.</text>
+      <text x="420" y="128" font-size="16" fill="#7aa2f7" letter-spacing="4">越过艰险，抵达群星</text>
+      <text x="420" y="162" font-size="15" fill="#e6b75c" letter-spacing="1">— Latin proverb</text>
+    </g>
+  </g>
+</svg>

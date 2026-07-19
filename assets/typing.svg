@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 56" width="720" height="56" role="img" aria-label="Hi, I'm Luna — sailing by moonlight">
+  <defs>
+    <clipPath id="c1"><rect x="127" y="0" width="0" height="56"><animate attributeName="width" values="0;466;466;0;0" keyTimes="0;0.0917;0.1917;0.2333;1" dur="24s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c2"><rect x="196" y="0" width="0" height="56"><animate attributeName="width" values="0;328;328;0;0" keyTimes="0;0.0917;0.1917;0.2333;1" dur="24s" begin="6s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c3"><rect x="164" y="0" width="0" height="56"><animate attributeName="width" values="0;391;391;0;0" keyTimes="0;0.0917;0.1917;0.2333;1" dur="24s" begin="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c4"><rect x="227" y="0" width="0" height="56"><animate attributeName="width" values="0;265;265;0;0" keyTimes="0;0.0917;0.1917;0.2333;1" dur="24s" begin="18s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <g font-family="'JetBrains Mono', Consolas, 'Cascadia Mono', Menlo, monospace" font-size="21" font-weight="600" fill="#e6b75c">
+    <text x="127" y="37" textLength="466" lengthAdjust="spacingAndGlyphs" clip-path="url(#c1)">☾ Hi, I'm Luna — sailing by moonlight</text>
+    <text x="196" y="37" textLength="328" lengthAdjust="spacingAndGlyphs" clip-path="url(#c2)">✦ Vast is the sea of stars</text>
+    <text x="164" y="37" textLength="391" lengthAdjust="spacingAndGlyphs" clip-path="url(#c3)">⋆ Turning stardust into commits</text>
+    <text x="227" y="37" textLength="265" lengthAdjust="spacingAndGlyphs" clip-path="url(#c4)">✧ Per aspera ad astra</text>
+  </g>
+
+  <g fill="#e6b75c">
+    <rect y="16" width="2.4" height="27" rx="1.2" x="127" opacity="0">
+      <animate attributeName="x" values="127;593;593;127;127" keyTimes="0;0.0917;0.1917;0.2333;1" dur="24s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.002;0.2333;0.2335;1" dur="24s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="fill-opacity" values="1;1;0.15;0.15" keyTimes="0;0.45;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+    <rect y="16" width="2.4" height="27" rx="1.2" x="196" opacity="0">
+      <animate attributeName="x" values="196;524;524;196;196" keyTimes="0;0.0917;0.1917;0.2333;1" dur="24s" begin="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.002;0.2333;0.2335;1" dur="24s" begin="6s" repeatCount="indefinite"/>
+      <animate attributeName="fill-opacity" values="1;1;0.15;0.15" keyTimes="0;0.45;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+    <rect y="16" width="2.4" height="27" rx="1.2" x="164" opacity="0">
+      <animate attributeName="x" values="164;555;555;164;164" keyTimes="0;0.0917;0.1917;0.2333;1" dur="24s" begin="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.002;0.2333;0.2335;1" dur="24s" begin="12s" repeatCount="indefinite"/>
+      <animate attributeName="fill-opacity" values="1;1;0.15;0.15" keyTimes="0;0.45;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+    <rect y="16" width="2.4" height="27" rx="1.2" x="227" opacity="0">
+      <animate attributeName="x" values="227;492;492;227;227" keyTimes="0;0.0917;0.1917;0.2333;1" dur="24s" begin="18s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.002;0.2333;0.2335;1" dur="24s" begin="18s" repeatCount="indefinite"/>
+      <animate attributeName="fill-opacity" values="1;1;0.15;0.15" keyTimes="0;0.45;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
