@@ -47,8 +47,8 @@ motto:      "Per aspera ad astra"
 
 <div align="center">
 
-<a href="https://github.com/YxLuna/yx-mind-release"><img width="49%" src="https://github-readme-stats-yxlunas-projects.vercel.app/api/pin/?username=YxLuna&repo=yx-mind-release&bg_color=0d1117&title_color=e6b75c&icon_color=7aa2f7&text_color=c0caf5&hide_border=true" /></a>
-<a href="https://github.com/YxLuna/MusicPlayer"><img width="49%" src="https://github-readme-stats-yxlunas-projects.vercel.app/api/pin/?username=YxLuna&repo=MusicPlayer&bg_color=0d1117&title_color=e6b75c&icon_color=7aa2f7&text_color=c0caf5&hide_border=true" /></a>
+<a href="https://github.com/YxLuna/yx-mind-release"><img width="49%" src="https://raw.githubusercontent.com/YxLuna/YxLuna/cards/pin-yx-mind-release.svg" /></a>
+<a href="https://github.com/YxLuna/MusicPlayer"><img width="49%" src="https://raw.githubusercontent.com/YxLuna/YxLuna/cards/pin-MusicPlayer.svg" /></a>
 
 </div>
 
@@ -58,16 +58,16 @@ motto:      "Per aspera ad astra"
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats-yxlunas-projects.vercel.app/api?username=YxLuna&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=e6b75c&icon_color=7aa2f7&text_color=c0caf5&include_all_commits=true&count_private=true" />
-<img height="180" src="https://github-readme-stats-yxlunas-projects.vercel.app/api/top-langs/?username=YxLuna&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=e6b75c&text_color=c0caf5&langs_count=8" />
+<img height="180" src="https://raw.githubusercontent.com/YxLuna/YxLuna/cards/stats.svg" />
+<img height="180" src="https://raw.githubusercontent.com/YxLuna/YxLuna/cards/top-langs.svg" />
 
 <br/><br/>
 
-<img width="98%" src="https://github-readme-streak-stats-pi-peach.vercel.app?user=YxLuna&theme=tokyonight&hide_border=true&background=0D1117&ring=E6B75C&fire=F7768E&currStreakLabel=E6B75C&currStreakNum=E6B75C" />
+<img width="98%" src="https://raw.githubusercontent.com/YxLuna/YxLuna/cards/streak.svg" />
 
 <br/><br/>
 
-<img width="98%" src="https://github-readme-activity-graph-yxlunas-projects.vercel.app/graph?username=YxLuna&theme=react-dark&bg_color=0d1117&color=e6b75c&line=7aa2f7&point=e6b75c&area=true&area_color=7aa2f7&hide_border=true&custom_title=Luna's%20Contribution%20Constellation" />
+<img width="98%" src="https://raw.githubusercontent.com/YxLuna/YxLuna/cards/activity.svg" />
 
 </div>
 
