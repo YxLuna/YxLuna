@@ -1,0 +1,58 @@
+name: Generate Stats Cards
+
+# Pre-render the stats cards so the README serves static SVGs instead of
+# live Vercel calls that can time out behind GitHub's image proxy (camo).
+on:
+  schedule:
+    - cron: "30 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout cards branch
+        run: |
+          git init -q cards && cd cards
+          git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          if git fetch -q --depth 1 origin cards; then git checkout -q FETCH_HEAD; fi
+          git checkout -q -B cards
+
+      - name: Fetch cards
+        working-directory: cards
+        run: |
+          STATS=https://github-readme-stats-yxlunas-projects.vercel.app
+          PAL="bg_color=0d1117&title_color=e6b75c&text_color=c0caf5&hide_border=true"
+          declare -A CARDS=(
+            [stats.svg]="$STATS/api?username=YxLuna&show_icons=true&theme=tokyonight&icon_color=7aa2f7&include_all_commits=true&count_private=true&$PAL"
+            [top-langs.svg]="$STATS/api/top-langs/?username=YxLuna&layout=compact&theme=tokyonight&langs_count=8&$PAL"
+            [pin-yx-mind-release.svg]="$STATS/api/pin/?username=YxLuna&repo=yx-mind-release&icon_color=7aa2f7&$PAL"
+            [pin-MusicPlayer.svg]="$STATS/api/pin/?username=YxLuna&repo=MusicPlayer&icon_color=7aa2f7&$PAL"
+            [streak.svg]="https://github-readme-streak-stats-pi-peach.vercel.app?user=YxLuna&theme=tokyonight&hide_border=true&background=0D1117&ring=E6B75C&fire=F7768E&currStreakLabel=E6B75C&currStreakNum=E6B75C"
+            [activity.svg]="https://github-readme-activity-graph-yxlunas-projects.vercel.app/graph?username=YxLuna&theme=react-dark&bg_color=0d1117&color=e6b75c&line=7aa2f7&point=e6b75c&area=true&area_color=7aa2f7&hide_border=true&custom_title=Luna's%20Contribution%20Constellation"
+          )
+          failed=0
+          for name in "${!CARDS[@]}"; do
+            if curl -fsSL --retry 4 --retry-delay 10 --retry-all-errors -m 60 -o tmp.svg "${CARDS[$name]}" \
+               && grep -q '<svg' tmp.svg \
+               && ! grep -qiE 'something went wrong|rate limit|could not (fetch|resolve)' tmp.svg; then
+              mv tmp.svg "$name"; echo "ok   $name"
+            else
+              echo "::warning::$name failed, keeping previous version"; failed=$((failed+1))
+            fi
+          done
+          rm -f tmp.svg
+          [ "$failed" -lt "${#CARDS[@]}" ]
+
+      - name: Commit
+        working-directory: cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && { echo "no changes"; exit 0; }
+          git commit -qm "chore(cards): refresh stats cards"
+          git push -q origin cards
